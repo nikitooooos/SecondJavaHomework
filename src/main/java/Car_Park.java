@@ -12,7 +12,7 @@ public class Car_Park {
             park.add("LAMBORGHINI");
             park.add("PORSCHE");
 
-            System.out.println("Автомобилей в парке : " + park.size());
+            System.out.println("Автомобилей на парковке : " + park.size());
 
             Iterator iterator = park.iterator();
 
@@ -20,7 +20,7 @@ public class Car_Park {
                 iterator.next();
                 iterator.remove();
             }
-            System.out.println("Автомобилей в парке : " + park.size());
+            System.out.println("Автомобилей на парковке : " + park.size());
 
         }
 }
